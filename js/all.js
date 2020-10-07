@@ -84,13 +84,15 @@ function updateList(data){
     list.innerHTML = str;
 }
 function gotop() {
+
     if (window.scrollY >= 670) {
         goTopBtn.style.width = "40px";
     } else {
         goTopBtn.style.width = "0";
     }
 }
-gotop();
+gotop()
+
 function gotoTop() {
     if (window.scrollY != 0) {
         setTimeout(function () {
