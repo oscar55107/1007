@@ -90,6 +90,7 @@ function gotop() {
         goTopBtn.style.width = "0";
     }
 }
+gotop();
 function gotoTop() {
     if (window.scrollY != 0) {
         setTimeout(function () {
