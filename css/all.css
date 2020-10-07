@@ -24,7 +24,7 @@
 .gotop {
     position: fixed;
     bottom: 110px;
-    right: 0;
+    right: -10px;
     height: 40px;
     text-align: center;
     line-height: 40px;
